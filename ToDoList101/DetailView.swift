@@ -26,6 +26,15 @@ struct DetailView: View {
                 
                 Spacer()
                 
+                HStack{
+                    Text("How do you feel?")
+                        .foregroundColor(.blue)
+                    Divider()
+                        .fixedSize()
+                    Text("What about you?")
+                        .foregroundColor(.red)
+                }.padding(40)
+                
                 Button(action: {
                     viewmodel.deleteData(at: IndexSet(integer: index))
                     presentationMode.wrappedValue.dismiss()
