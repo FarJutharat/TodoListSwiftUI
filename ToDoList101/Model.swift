@@ -19,3 +19,7 @@ class TodoData : Identifiable {
         self.detail = detail
     }
 }
+
+extension TodoData {
+    //do spme thing
+}
