@@ -18,6 +18,7 @@ struct DetailView: View {
                     .fontWeight(.bold)
                     .font(.system(size: 30))
                 Divider()
+                    .foregroundColor(.green)
                 VStack(spacing: 30){
                     Text(data.create_by)
                         .foregroundColor(.gray)
@@ -41,8 +42,9 @@ struct DetailView: View {
                 })
  
             }
-        .padding(20)
+        .padding(50)
         .navigationBarTitle("Detail")
+        
     }
 }
 
