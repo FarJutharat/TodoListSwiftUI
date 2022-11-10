@@ -18,12 +18,15 @@ class TodoData : Identifiable {
         self.create_by = create_by
         self.detail = detail
     }
+    func isEmpty() -> Bool {
+        if title == "" && create_by == "" && detail == "" {
+            return true
+        }else{
+            return false
+        }
+    }
 }
 
 extension TodoData {
-    //do spme thing
-    //1234
-    //5678
-    //prepare merge with main
-    //edit main
+    
 }
