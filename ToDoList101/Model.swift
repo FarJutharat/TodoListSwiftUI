@@ -22,6 +22,7 @@ class TodoData : Identifiable {
 
 extension TodoData {
     //test merge
-    
-    //test merge again
+
+    //test merge 2
+>>>>>>> 2afa4b1 (test merge 2)
 }
