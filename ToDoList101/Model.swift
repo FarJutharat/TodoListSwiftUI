@@ -29,9 +29,6 @@ class TodoData : Identifiable {
 //version 1
 extension TodoData {
     //test merge
-<<<<<<< HEAD
-=======
     //
     //fix defect 30 12 2022
->>>>>>> fix/defect/far/20221230
 }
