@@ -23,7 +23,7 @@ extension viewModel {
     func addFunction(){
         let i = 0
         if i < 5 {
-            print("less")
+            print("more")
         }
     }
 }

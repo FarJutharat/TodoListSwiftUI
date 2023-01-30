@@ -28,13 +28,13 @@ class TodoData : Identifiable {
 }
 //version 1
 extension TodoData {
-    func SetTitle(){
-        if title.isEmpty {
-            print("do something")
-        }else if (title == "Cat"){
-            print("do something with cat")
-        }else{
-            print("do something")
+        func SetTitle(){
+            if !title.isEmpty && title == "Title"{
+                print("do something")
+            }else if (title == "Lovely") {
+                print("do something same 1")
+            }else{
+                print("do something same another")
+            }
         }
-    }
 }
