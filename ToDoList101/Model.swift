@@ -34,5 +34,4 @@ extension TodoData {
 }
 
 //test git fork
-//person1 commit
-//person1 commit again
+//person2 commit
