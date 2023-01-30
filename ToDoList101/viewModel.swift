@@ -18,3 +18,12 @@ class viewModel : ObservableObject {
         data.remove(atOffsets: offsets)
     }
 }
+
+extension viewModel {
+    func addFunction(){
+        let i = 0
+        if i < 5 {
+            print("less")
+        }
+    }
+}

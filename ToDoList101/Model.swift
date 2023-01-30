@@ -31,8 +31,10 @@ extension TodoData {
     func SetTitle(){
         if title.isEmpty {
             print("do something")
+        }else if (title == "Cat"){
+            print("do something with cat")
         }else{
-            print("do something same")
+            print("do something")
         }
     }
 }
