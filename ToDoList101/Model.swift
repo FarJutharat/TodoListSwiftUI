@@ -28,10 +28,13 @@ class TodoData : Identifiable {
 }
 //version 1
 extension TodoData {
-    //test merge
-    //
-    //fix defect 30 12 2022
+    extension TodoData {
+        func SetTitle(){
+            if !title.isEmpty && title == "Title"{
+                print("do something")
+            }else{
+                print("do something same")
+            }
+        }
+    }
 }
-
-//test git fork
-//person2 commit
